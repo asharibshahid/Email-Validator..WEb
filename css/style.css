@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+background-color: black;
+color: white;
+padding: 19px 12px;
+}
+.logo>span{
+    font-size: 20px;
+}
+.logo>img{
+    width: 20px;
+    
+}
+.logo{
+    color: wheat;
+    
+}
+.logo:hover{
+color: green;
+}
+ul{
+    display: flex;
+}
+ul li{
+    padding: 0 13px;
+    list-style: none;
+    font-size: medium;
+    
+}
+ul li a{
+text-decoration: none;
+color: gold;
+}
+ul >li> a:hover{
+color: beige;
+
+}
+main{
+    min-height: 100vh;
+    padding: 2px;
+    background-color: aqua;
+}
+.container{
+    padding: 9px 15px; 
+    max-width:  80vw;
+    margin: auto;
+}
+
+.container h1 {
+    padding: 12px 0;
+
+}
+input{
+   padding: 5px 15px;
+   border: 2px solid black;
+   border-radius: 3px;
+   font-size: 18px;
+
+}
+.btn{
+    background-color:black ;
+    padding: 9px 12px;
+   border-radius: 5px;
+   border-color: gold;
+    color:gold ;
+    cursor: pointer;
+}
+.io>img{
+    background-color: aqua;
+}
+#ResultCont div::first-letter{
+    text-transform: uppercase;
+}
+footer{
+    padding: 12px; ;
+    display: flex;
+    background-color: black;
+    color: gold;
+font-size: 12px;
+justify-content: center;
+align-items: center;
+}
+footer:hover{
+    color: beige;
+}
+@media only screen and (max-width:600px){
+body{
+    background-color: aqua;
+}
+
+.container{
+    font-size: 12px;
+}
+nav{
+    flex-direction: column;
+}
+.logo{
+    padding: 6px 0;
+}
+
+
+}
+    
